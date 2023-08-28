@@ -1,6 +1,18 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+.btn{
+    padding: 20px 43px;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* header start */
 .header-container{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -23,19 +35,10 @@
     line-height: 30px;
     margin-top: -32px;
 }
-.btn{
-    padding: 20px 43px;
-    border: 0;
-    border-radius: 8px;
-    background: #E55473;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-}
+/* header end */
 
 
-
+/* featured start */
 .featured-flowers{
     margin-top: 178px;
 }
@@ -85,7 +88,10 @@
     text-decoration: underline;
     cursor: pointer;
 }
+/* featured end */
 
+
+/* Same Day Delivery start */
 .icon-container{
     margin: 128px 240px 0px 240px;
     height: 320px;
@@ -117,9 +123,10 @@
     font-weight: 600;
     line-height: 35px;
 }
+/* Same Day Delivery end */
 
 
-
+/* hot deal start */
 .hot-deal{
     margin-top: 128px;
     height: 620px;
@@ -160,10 +167,10 @@
     font-weight: 400;
     line-height: 30px;
 }
+/* hot deal end */
 
 
-
-
+/* instagram style start */
 .instagram{
     margin-top: 128px;
     text-align: center;
@@ -185,6 +192,9 @@
     justify-content: center;
     gap: 24px;
 }
+/* instagram style end */
+
+/* get style start */
 .get-latest-deals{
     margin-top: 120px;
     margin-left: 225px;
@@ -210,6 +220,10 @@
     font-weight: 400;
     line-height: 30px;
 }
+/* get style end */
+
+
+/* serach bar style start */
 .search-bar{
     text-align: center;
 }
@@ -223,7 +237,10 @@
 ::placeholder{
     padding-left: 15px;
 }
+/* serach bar style end */
 
+
+/* footer style start */
 .footer-container{
     margin-top: 128px;
     height: 449px;
@@ -250,3 +267,4 @@
     font-size: 16px;
     font-weight: 400;
 }
+/* footer style end */
